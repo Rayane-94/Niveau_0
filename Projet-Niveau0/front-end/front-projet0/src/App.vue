@@ -6,7 +6,7 @@
   </header>
 
   <main>
-    <!-- Affiche les composants basés sur les routes -->
+   
     <router-view></router-view>
   </main>
 </template>
@@ -19,8 +19,8 @@ import AddUser from './components/AddUser.vue';
 
 <style scoped>
 h1 {
-  flex: 1; /* Assure que le titre prend l'espace restant */
-  text-align: center; /* Centre le titre */
+  flex: 1;
+  text-align: center; 
 }
 header {
   line-height: 1.5;

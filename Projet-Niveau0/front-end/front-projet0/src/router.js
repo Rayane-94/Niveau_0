@@ -6,7 +6,7 @@ import AddUser from './components/AddUser.vue';
 const routes = [
   { path: '/', component: UserList },
   { path: '/user/:id', component: UserDetails },
-  { path: '/add-user', component: AddUser } // Route pour ajouter un utilisateur
+  { path: '/add-user', component: AddUser } 
 ];
 
 const router = createRouter({
