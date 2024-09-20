@@ -19,9 +19,9 @@
   
   <script setup>
   import { ref } from 'vue';
-  import { useRouter } from 'vue-router'; // Importer useRouter
+  import { useRouter } from 'vue-router'; 
   
-  const router = useRouter(); // Créer une instance de router
+  const router = useRouter(); 
   
   const email = ref('');
   const password = ref('');
@@ -40,7 +40,7 @@
       .then(response => response.json())
       .then(data => {
         console.log('Utilisateur ajouté:', data);
-        // Optionnel : réinitialiser les champs du formulaire
+        
         email.value = '';
         password.value = '';
       })
@@ -48,7 +48,7 @@
   };
   
   function goBack() {
-    router.push('/'); // Utiliser router pour naviguer
+    router.push('/'); 
   }
   </script>
   
